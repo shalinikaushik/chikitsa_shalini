@@ -27,6 +27,8 @@ class MyApp extends StatelessWidget {
                 ),
 
                 new Text('or Register as'),
+
+                new Container (padding: const EdgeInsets.only(top:40)),
                 new Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
